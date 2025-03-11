@@ -12,6 +12,7 @@ composeBom = "2024.04.01"
 roomCommon = "2.6.1"
 roomKtx = "2.6.1"
 hilt = "2.50"
+navigationCompose = "2.8.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,6 +34,7 @@ androidx-room-common = { group = "androidx.room", name = "room-common", version.
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
 
 [plugins]
